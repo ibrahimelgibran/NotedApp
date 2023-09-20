@@ -20,7 +20,7 @@ Provides note `search`, `star`, `archive` and `trash` of recently deleted notes.
 Clone this project
 
 ```bash
-git clone https://github.com/ibrahimelgibran/notedapp
+git clone https://github.com/ibrahimelgibran/NotedApp.git
 ```
 
 Install dependencies
