@@ -1,6 +1,6 @@
 ## Noted - Simple Note App
 
-<img src="demo.jpg"></img>
+(public/demo.jpg)
 
 Make simple notes, ez use wherever & whenever you are, with Noted.<br>
 
