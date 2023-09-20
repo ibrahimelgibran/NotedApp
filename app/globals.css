@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f3f3f3;
+  --color-card: #fff;
+  --color-text: #545454;
+  --color-title: #202123;
+  --color-profile: #b3d6fc;
+  --color-divider: #e5e5e5;
+  --color-red: theme(colors.rose.500);
+  --color-blue: theme(colors.blue.500);
+  --color-green: theme(colors.green.400);
+  --color-yellow: theme(colors.yellow.300);
+}
+
+:root.dark {
+  --color-bg: #202123;
+  --color-card: #2c2c2e;
+  --color-text: #c4c4c6;
+  --color-title: #fff;
+  --color-profile: #b3d6fc;
+  --color-divider: #363638;
+}
+
+@layer base {
+  body {
+    @apply bg-background;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply text-title;
+  }
+  h1 {
+    @apply text-xl font-bold tracking-wide;
+  }
+  h2 {
+    @apply text-lg;
+  }
+  h3 {
+    @apply text-base font-medium;
+  }
+  p {
+    @apply text-sm text-text;
+  }
+  a.link {
+    @apply hover:underline hover:underline-offset-2;
+  }
+  input {
+    @apply bg-inherit focus:outline-none
+  }
+  input::-webkit-search-cancel-button {
+    @apply appearance-none;
+  }
+  #search-bar:has(input:focus) {
+    @apply ring-1 ring-text
+  }
+}
