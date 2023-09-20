@@ -1,5 +1,7 @@
 ## Noted - Simple Note App
 
+<img src="demo.jpg">
+
 Make simple notes, ez use wherever & whenever you are, with Noted.<br>
 
 <!-- [Visit Noted](https://mynoted.netlify.app/) -->
