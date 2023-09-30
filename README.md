@@ -23,7 +23,7 @@ Clone this project
 
 ```bash
 git clone https://github.com/ibrahimelgibran/NotedApp.git
-```
+````
 
 Install dependencies
 
