@@ -2,7 +2,7 @@
 
 <img src="public/demo.jpg"></img>
 
-Make simple notes, ez use wherever & whenever you are, with Noted.<br>
+Make simple notes, ez use wherever & whenever you are, with NotedApp.<br>
 
 <!-- [Visit Noted](https://mynoted.netlify.app/) -->
 
