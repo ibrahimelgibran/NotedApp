@@ -4,7 +4,7 @@
 
 Make simple notes, ez use wherever & whenever you are, with NotedApp.<br>
 
-<!-- [Visit Noted](https://mynoted.netlify.app/) -->
+<!-- [Visit Noted](https://mynoted.netlify.app/) --->
 
 ### Features
 
