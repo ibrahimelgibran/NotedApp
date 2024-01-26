@@ -13,7 +13,8 @@ const Back = () => {
   return (
     <button
       onClick={() => router.push(backPage())}
-      className="w-8 aspect-square grid place-items-center text-title select-none">
+      className="w-8 aspect-square grid place-items-center text-title select-none"
+    >
       <IoIosArrowBack size={20} />
     </button>
   );

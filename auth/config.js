@@ -16,16 +16,16 @@ if (!getApps().length) {
   const analytics = getAnalytics(app);
 }
 
-export const FirebaseAuth = getAuth()
+export const FirebaseAuth = getAuth();
 
-export const SignUp = async(email, password) => {
-  await createUserWithEmailAndPassword(FirebaseAuth, email, password)
-}
+export const SignUp = async (email, password) => {
+  await createUserWithEmailAndPassword(FirebaseAuth, email, password);
+};
 
-export const SignIn = async(email, password) => {
-  await signInWithEmailAndPassword(FirebaseAuth, email, password)
-}
+export const SignIn = async (email, password) => {
+  await signInWithEmailAndPassword(FirebaseAuth, email, password);
+};
 
-export const SignOut = async() => {
-  await signOut(FirebaseAuth)
-}
+export const SignOut = async () => {
+  await signOut(FirebaseAuth);
+};

@@ -25,15 +25,18 @@ const Theme = ({ user }: { user: User }) => {
   React.useEffect(() => {
     user.login
       ? user.darkTheme
-        ? applyDarkTheme() : setIsDarkTheme(false)
+        ? applyDarkTheme()
+        : setIsDarkTheme(false)
       : isSystemDarkTheme
-        ? applyDarkTheme() : setIsDarkTheme(false)
+      ? applyDarkTheme()
+      : setIsDarkTheme(false);
   }, [user, isSystemDarkTheme]);
 
   return (
     <button
       onClick={switchTheme}
-      className="w-8 aspect-square rounded-full grid place-items-center bg-card text-title select-none cursor-pointer">
+      className="w-8 aspect-square rounded-full grid place-items-center bg-card text-title select-none cursor-pointer"
+    >
       {isDarkTheme ? <FaMoon /> : <BsFillSunFill />}
     </button>
   );
